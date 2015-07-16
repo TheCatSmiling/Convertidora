@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Convertidora</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="conversiones">
+        <item>centimetros-pulgadas</item>
+        <item>pulgadas-centimetros</item>
+        <item>kilometros-metros</item>
+        <item>metros-kilometros</item>
+        <item>farenheit-centigrados</item>
+        <item>centigrados-farenheit</item>
+
+
+    </string-array>
+</resources>

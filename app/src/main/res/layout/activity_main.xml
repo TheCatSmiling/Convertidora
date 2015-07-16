@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etxValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="insertar valor"
+        android:inputType="numberDecimal"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="9dp"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif"
+        android:padding="9dp"
+        >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="24dp"
+        android:textColor="#BA68C8"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Convertir"
+        android:fontFamily="sans-serif"
+        android:background="#FFCDD2"
+        android:padding="24dp"
+        android:onClick="resultado"
+        />
+
+
+
+</LinearLayout>
